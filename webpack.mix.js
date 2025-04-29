@@ -22,14 +22,10 @@ mix.webpackConfig({
 
 // Compilación de CSS
 mix.styles([
-    "resources/assets/css/bootstrap.min.css",
-    "resources/assets/css/font-awesome.min.css",
-    "resources/assets/css/elegant-icons.css",
-    "resources/assets/css/owl.carousel.min.css",
-    "resources/assets/css/magnific-popup.css",
-    "resources/assets/css/slicknav.min.css",
-    "resources/assets/css/style.css"
-    // "resources/assets/css/flaticon.css",
+    "resources/assets/css/theme.css",
+    "resources/assets/css/theme.min.css",
+    "resources/assets/css/theme-rtl.css",
+    "resources/assets/css/theme-rtl.min.css"
 ], "public/css/vendor.css")
 .styles('resources/coreui-x/css/app.css', 'public/css/back-app.css')
 .styles([
@@ -39,14 +35,9 @@ mix.styles([
 
 // Compilación de JavaScript
 mix.scripts([
-    "resources/assets/js/jquery-3.3.1.min.js",
-    "resources/assets/js/bootstrap.min.js",
-    "resources/assets/js/jquery.magnific-popup.min.js",
-    "resources/assets/js/mixitup.min.js",
-    "resources/assets/js/masonry.pkgd.min.js",
-    "resources/assets/js/jquery.slicknav.js",
-    "resources/assets/js/owl.carousel.min.js",
-    "resources/assets/js/main.js"
+    "resources/assets/js/bootstrap-navbar.js",
+    "resources/assets/js/theme.js",
+    "resources/assets/js/theme.min.js",
 ], "public/js/vendor.js")
 .scripts([
     "resources/coreui-x/js/app.js",
